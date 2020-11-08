@@ -1,37 +1,120 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+<link rel="StyleSheet" href="StyleSheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="StyleSheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='StyleSheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="StyleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="StyleSheet" href="StyleSheet.css" />
+<title>Portfolio</title>
+</head>
+<body>
+  <ul>
+    <li><a href="Kontakt.html">Kontakt</a></li>
+    <li><a href="ÜberMich.html">About</a></li>
+    <li><a class="active" href="#Portfolio">Portfolio</a></li>
+  </ul>
+<main>
+  <div class="landing">
+  <div class="landing-text">
+    <div class="landing-text-inner">
+      <h1 id="bild2">Nicole Schwabauer</h1>
+      <h2>Portfolio</h2>
+      <div>
+        <i class="fa fa-facebook-official w3-hover-opacity fa-2x"></i>
+        <i class="fa fa-instagram w3-hover-opacity fa-2x"></i>
+        <i class="fa fa-snapchat w3-hover-opacity fa-2x"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity fa-2x"></i>
+        <i class="fa fa-twitter w3-hover-opacity fa-2x"></i>
+        <i class="fa fa-linkedin w3-hover-opacity fa-2x"></i>
+</div>
+      <a href="#bm" class="btn" class="viewwork">
+        View Work
+      </a>
+    </div>
+    </div>
+  
+    <div class="images">
+      <div class="header">
+        <h2>Portfolio</h2>
+      </div>
+      
+      <img class="abstand3" src="photo.jpg" alt="">
+      <div id="bm"></div>
+      </div>
 
-You can use the [editor on GitHub](https://github.com/nicoleschwabauer/GIS_WiSe_2020/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<div class="caption">
+  <h3>Konzept HFU ID</h3>
+</div>
+<div class="video-wrapper">
+<iframe src="Konzept_HFU_ID.pdf" name="Konzept">
+</iframe>
+</div>
+<div class="caption">
+  <h3>Prototyp HFU ID</h3>
+</div>
+<div class="video-wrapper">
+  <iframe src="Prototyp.mp4"></iframe>
+</div>
+<div class="caption">
+  <h3>Präsentation HFU ID</h3>
+</div>
+<div class="video-wrapper">
+  <iframe src="Präsentation.mp4?"></iframe>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div class="caption">
+  <h3>Logo HFU ID</h3>
+</div>
 
-### Markdown
+<img class="a" src="Logo.jpg" alt="">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div class="caption">
+  <h3>Computergrafik Aufgabe 4</h3>
+</div>
 
-```markdown
-Syntax highlighted code block
+<img class="a" src="FertigesBild.png" alt="">
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+<div class="caption">
+  <h3>Computergrafik Aufgabe 5</h3>
+</div>
 
-1. Numbered
-2. List
+<img class="a" src="Aufgabe5.png" alt="">
 
-**Bold** and _Italic_ and `Code` text
+<div>
+  <div class="caption">
+    <h3>Lifted</h3>
+  </div>
 
-[Link](url) and ![Image](src)
-```
+  <div class="video-wrapper">
+    <iframe src="AV_Vertont_Nicole.mp4"></iframe>
+  </div>
+</div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<div>
 
-### Jekyll Themes
+  <div class="caption">
+    <h3>Vorstellung Geplante Obszolenszenz</h3>
+  </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nicoleschwabauer/GIS_WiSe_2020/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+  <div class="video-wrapper">
+    <iframe src="Interview_Schridde.mp4"></iframe>
+  </div>
 
-### Support or Contact
+  </div>
+</div>
+</main>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<footer>
+  <h3 class="git">Get In Touch</h3>
+  <p></p>
+  <p><strong>Email: n.schwabauer2000@gmail.com</strong></p>
+  <p><strong>Phone: 0176 64759575</strong></p>
+</footer>
+
+</body>
+
+</html>
